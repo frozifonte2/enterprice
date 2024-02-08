@@ -1,0 +1,149 @@
+.modal {
+	position: fixed;
+	display: block;
+	top: 50%;
+	left:50%;
+	background-color: #374050;
+	padding: 25px 12px;
+	transform:translate(-50%,-50%);
+	height: 487px;
+	max-height: scroll;
+	overflow-y: auto;
+	width: 630px;
+}
+.overlay {
+	background-color: #F2F6FA;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
+.overlay__img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+.del-modal {
+	position: fixed;
+	display: block;
+	top: 50%;
+	left:50%;
+	background-color: #374050;
+	padding: 25px 12px;
+	transform:translate(-50%,-50%);
+	height: auto;
+	width: 630px;
+}
+.modal__items {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.modal__title {
+	font-size: 20px;
+	line-height: 11px;
+	font-weight: 800;
+	color: #fff;
+}
+.modal__title span {
+	font-weight: 400;
+}
+.modal-overlay {
+	position: fixed;
+	display: block;
+	background: rgba(255,255,255,0.5);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.modal__close {
+	margin-left: 5px;
+}
+.modal__del-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.del-modal__text {
+	text-align:center;
+	margin-bottom: 10px;
+}
+.modal__error {
+	color: red;
+	font-size: 14px;
+	line-height: 11px;
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 13px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.modal__text {
+	display: block;
+	font-size: 9px;
+	color: #fff;
+	line-height: 11px;
+	margin-bottom: 8px;
+}
+.modal__buttons {
+	display: flex;
+	align-items: center;
+}
+.modal__buttons a:first-child {
+	margin-right: 2px;
+}
+.modal__form {
+	width: 80%;
+}
+.modal__input {
+	color: #000;
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: 300;
+	padding: 9px;
+	width: 100%;
+	margin-bottom: 13px;
+	border-radius: 5px;
+}
+.modal__h5 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 11px;
+	color: #fff;
+	margin-bottom: 18px;
+}
+.modal__list {
+	display: flex;
+	align-items: center;
+	width: 90%;
+}
+.modal__item:not(:last-child) {
+	flex-grow:2;
+	margin-right: 10px;
+}
+.modal__item {}
+.modal__del-attr {
+	display: flex;
+	align-self: center;
+	justify-self: center;
+	vertical-align: middle;
+}
+.modal__add-attr {
+	color: #5fc6f1;
+	font-size: 9px;
+	line-height: 11px;
+	border-bottom: 0.5 dashed #5FC6F1;
+}
+.modal__button {
+	border:0;
+	outline: 0;
+	margin-top: 22px;
+}
+.modal__button:hover {
+	cursor: pointer;
+}
